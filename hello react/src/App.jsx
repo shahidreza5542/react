@@ -1,17 +1,15 @@
 import { useState } from 'react'
+import Chai from './Chai'
 
 
 function App() {
   
 
-  return (
+  return ( 
     <>
-      <div>
-        <h1>hello world</h1>
-      </div>
-      <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, exercitationem?</p>
-      </div>
+    <Chai/>
+    <h1>chai aur react</h1>
+    <p>test para</p>
     </>
   )
 }
