@@ -22,6 +22,10 @@ function App() {
     setCounter(counter)
     
   }
+
+  if (counter < 0) {
+    counter = 0
+  }
    
 
   return (
